@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BookClassLibrary">
+      <HintPath>..\..\..\Mandatory Assigment 1\BookClassLibrary -T1\BookClassLibrary\bin\Debug\netcoreapp3.1\BookClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="BookLibraryAssignemnt">
+      <HintPath>..\BookLibraryAssignemnt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
